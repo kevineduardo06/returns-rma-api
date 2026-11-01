@@ -44,3 +44,12 @@ GET /tenants/:tenantId/reports/returns-summary
 - Reports should exclude returns from other tenants.
 - Restocking damaged items should not increase sellable inventory.
 - Audit logs are missing for refund events.
+
+
+## Current limitations and future development
+
+This is a personal development prototype, not a production deployment. Repositories currently use in-memory storage. Planned enhancements and estimated work are documented in [ROADMAP.md](ROADMAP.md). No production users or deployments are claimed.
+
+## License
+
+MIT; see [LICENSE](LICENSE).
